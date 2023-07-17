@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ContactUs.css">
+    <title>contact-form</title>
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us through any of the following methods:</p>
+        
+        <div class="contact-methods">
+          <div>
+            <h3>Email</h3>
+            <p>Email: info@example.com</p>
+          </div>
+          <div>
+            <h3>Phone</h3>
+            <p>Phone: +1 123-456-7890</p>
+          </div>
+          <div>
+            <h3>Social Media</h3>
+            <p>Follow us on: 
+              <a href="https://www.facebook.com/example">Facebook</a>, 
+              <a href="https://twitter.com/example">Twitter</a>, 
+              <a href="https://www.instagram.com/example">Instagram</a>
+            </p>
+          </div>
+        </div>
+        
+        <h3>Send us a message:</h3>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+       <!-- -------------js file-------------- -->
+    <script src="ContactUs.js"></script>
+      
+</body>
+</html>
